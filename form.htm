@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>This is a Form</h1>
+    <form action="/processing.php">
+        <fieldset>
+            <legend>Basic Information</legend>
+            <div>
+                <label for="fullName">Enter Full Name</label>
+                <input type="text" name="fullName" id="fullName" placeholder="Enter your Full Name">
+            </div>
+            <div>
+                <label for="email">Enter Your Email</label>
+                <input type="email" name="email" id="email" placeholder="Please Enter your Email">
+            </div>
+            <div>
+                <input type="password" name="Password" id="Password" placeholder="Enter your Password">
+            </div>
+        </fieldset>
+
+        <!-- <div>
+            <input type="radio" name="Male" id="Male" value="Male"> <label for="Male">Male</label>
+            <input type="rdadio" name="Female" id="Female" value="Female"> <label for="Female">Female</label>
+        </div> -->
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="Male" value="Male"> <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female" value="Female"> <label for="Female">Female</label>
+            <input type="radio" name="gender" id="Other" value="Other"> <label for="Other">Other</label>
+        </fieldset>
+       
+        <fieldset><legend>Dates and Time & Other Inputs</legend>
+        
+            <div>
+                <h1>Date</h1>
+                <input type="date" name="" id="">
+            </div>
+            <div>
+                <h1>Time</h1>
+                <input type="time" name="" id="">
+            </div>
+            <div>
+                <h1>File</h1>
+                <input type="file" name="" id="">
+            </div>
+            <div>
+                <h1>Date and Time</h1>
+               <input type="datetime-local">
+            </div>
+            <div>
+                <h1>Color</h1>
+                <input type="color">
+            </div>
+            <div>
+                <h1>Search</h1>
+                <input type="search" name="" id="">
+            </div>
+            <div>
+                <h1>Month</h1>
+                <input type="month">
+            </div>
+        
+        </fieldset>
+
+           
+
+
+    </form>
+
+</body>
+
+</html>
