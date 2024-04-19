@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ddd;
+}
+#pra1{
+    background-color: burlywood;
+    color: white;
+}
+p{
+    color: blue;
+}
+
+.mypragraph{
+    background-color: chocolate;
+}
+.wowewenyine{
+    background-color: aquamarine;
+}
+#myid2{
+    background-color: black;
+}

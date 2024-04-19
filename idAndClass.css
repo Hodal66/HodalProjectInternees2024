@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(200, 235, 235);
+}
+#winniePragrah{
+    background-color: blueviolet;
+}
+.mypragraph{
+    color: rgb(7, 6, 6);
+    color: aliceblue;
+}
+div{
+    background-color: black;
+}
+#specialPragraph{
+    background-color: cadetblue;
+    color: white;
+    /* padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 70px; */
+    /* padding:50px 120px 100px 10px ; */
+
+    padding: 50px 100px;
+    margin: 100px;
+    border-style: outset;
+    border-color:blueviolet;
+    border-radius: 20px;
+    border-width: 30px;
+    
+}
