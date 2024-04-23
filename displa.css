@@ -1,0 +1,46 @@
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-content: center;
+}
+ul li{
+    list-style-type:none;
+}
+
+.myPragraph{
+    background-color: tomato;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items:start ;
+    height: 400px;
+    width: 300px;
+}
+
+.firstSection{
+    background-color: gray;
+ width:auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.firstSection p{
+ 
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+    border: 2px solid green;
+}
+
+.firstSection p span{
+    background-color: red;
+}
+
+#pra4{
+    background-color: green;
+    color: red;
+    border: 10px dashed white;
+}

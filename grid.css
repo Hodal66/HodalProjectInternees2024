@@ -1,0 +1,40 @@
+.myFirstSection{
+    background-color: darkkhaki;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr ;
+    gap: 20px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    color: white;
+    padding: 10px 0px;
+    height: 20px;
+}
+#mySection1{
+    background-color: aqua;
+}#mySection2{
+    background-color: magenta;
+}#mySection3{
+    background-color:chocolate;
+}#mySection4{
+    background-color:cadetblue;
+}#mySection5{
+    background-color:honeydew;
+/* }#mySection6{
+    background-color:darkkhaki
+}#mySection7{
+    background-color: rgb(21, 27, 27);
+}#mySection8{
+    background-color: rgb(82, 29, 131);
+}#mySection9{
+    background-color: rgb(34, 44, 44);
+}#mySection10{
+    background-color: rgb(181, 187, 187);
+}#mySection11{
+    background-color: rgb(148, 19, 19);
+}#mySection12{
+    background-color: rgb(22, 150, 54);
+} */

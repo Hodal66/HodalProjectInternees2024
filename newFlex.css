@@ -1,0 +1,24 @@
+#firstDiv{
+    background-color: gray;
+    /* padding: 30px 50px; */
+    display: flex;
+    
+    align-items: center;
+    height: 500px;
+    justify-content: space-between;
+
+
+}
+#secondDiv{
+    background-color: aqua;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p{
+    background-color:blue;
+    color: white;
+    padding: 20px;
+}

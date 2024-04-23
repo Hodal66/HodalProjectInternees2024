@@ -1,0 +1,1 @@
+console.log("Murakaza neza kumugabane wa javascript");
